@@ -3,23 +3,23 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>PixelCraft Studio</title>
-  <link rel="stylesheet" href="styles.css" />
+  <title>myCraft Studio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
     <nav class="navbar">
-      <div class="logo">PixelCraft</div>
+      <div class="logo">MyCraft </div>
       <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Team</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <main class="grid-container">
+  <main class="grid-container" id="">
     <section class="main-content">
       <h1>Creative Web Solutions</h1>
       <p>We build tailored digital experiences for startups, brands, and businesses looking to make an impact online.</p>
@@ -36,8 +36,26 @@
     </aside>
   </main>
 
+  <div class="flex-container">
+    <section class="flex-item" id="portfolio">
+      <h2>Our Portfolio</h2>
+      <p>From e-commerce platforms to mobile-first education portals, we’ve worked with diverse clients to build user-focused products that perform and delight.</p>
+    </section>
+  
+    <section class="flex-item" id="team">
+      <h2>Meet the Team</h2>
+      <p>Our multidisciplinary team includes UX designers, frontend devs, and backend architects who love solving challenges with clean code and bold ideas.</p>
+    </section>
+  
+    <section class="flex-item" id="contact">
+      <h2>Contact Us</h2>
+      <p>Email us at <a href="mailto:hello@pixelcraft.studio">hello@pixelcraft.studio</a> or visit our offices in Nairobi for a coffee and code session!</p>
+    </section>
+  </div>
+  
+
   <footer>
-    <p>&copy; 2025 PixelCraft Studio. All rights reserved.</p>
+    <p>&copy; 2025 MyCraft Studio. All rights reserved.</p>
   </footer>
 </body>
 </html>
